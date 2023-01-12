@@ -1,0 +1,100 @@
+.menu {
+    background-color: rgb(107, 7, 7);
+}
+    header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: brown;
+}
+ ul a{
+    text-decoration: none;
+    color: rgb(201, 169, 169);
+    justify-content: right; 
+}
+body nav{
+    background-color: #ffd3aa;
+}
+.style-fiel{
+    width: 90%;
+    padding: 10px, 15px;
+    border-radius: 10px;
+}
+.btn {
+    background-color: crimson; 
+    border: none;
+    padding: 10px 20px;
+    transition: all 0.3s ease-out;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color:#f69a46
+}
+footer {
+    background-color: rgb(107, 7, 7);
+}
+footer ul li {
+    text-decoration: none;
+    color: rgb(201, 169, 169);
+    justify-content: space-around; 
+}
+/**Estilos Index2**/
+.container{
+    max-width:1200px;
+    width:90%;
+    margin:0 auto;
+}
+section {
+    padding: 10px 0;
+}
+.title{
+    text-transform: uppercase;
+}
+.subtitle{
+    background-color: rgb(107, 7, 7);
+    display: inline;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 5px;
+}
+.product-container .card-product{
+    background-color: #ec9498;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+.product-container .card-product:hover{
+    color: #fff;
+    background-color: rgb(107, 7, 7);
+    scale: 1.1;
+    cursor: pointer;
+}
+@media screen and (max-width: 680px) {
+    .product-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (max-width: 490px){
+    .product-container{
+        grid-template-columns: repeat(2,1fr);
+}
+}
