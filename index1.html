@@ -4,14 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Acceso</title>
+    <title>Página de Registro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <nav>
-        <input class="text-field" placeholder="Usuario">
-        <input class="text-field" placeholder="Contraseña">
-        <button onclick="location.href='./index2.html '">Aceptar</button>
-    </nav>
-</body>
+    <header>
+        <nav class="menu">
+            <p class="logo"><img src="./assets/Logotipo Moda Femenina Negro y Beige (1).png" alt="" width="200px" height="200px"></p>
+                <UL>
+                    <LI><a href="./index.html">Home</a></LI>
+                    <LI><a href="#">About</a></LI>
+                    <LI><a href="#">Contact</a></LI>
+                </UL>
+        </nav>
+    </header>
+    <main> 
+        <form class="formulario" name="formulario" method="dialog" action="./index2.html">
+                <p>
+                    <label>Nombre:<input type="text" name="Nombre"></label>
+                </p>
+                 <p>
+                    <label>E-mail:<input type="email" name="E-mail"></label>
+                </p>
+                <p>
+                  <label>Contraseña:<input type="password" name="Contraseña"></label>
+                </p>
+                <p>
+                    <label>Verificar contraseña:<input type="password" name="Nombre"></label>
+                </p>
+        </form>
+        <button class="btn">Aceptar</button>
+        <p></p>
+    </main>
+        </body>
+        <footer class="socialmedia" >
+            <div>
+                <img src="./assets/Logotipo Moda Femenina Negro y Beige (1).png" alt="" width="100px" width="100px">
+            </div>
+            <div>
+                <p>siguenos en redes Sociales:</p>
+                <div style="display: flex;justify-content: center;">
+                    <div>
+                        <a href="">
+                            <img src="./assets/insta.png" alt="Instagram" width="40px" height="40px">
+                        </a>
+                    </div>
+        
+                    <div>
+                        <a href="">
+                            <img src="./assets/facebook (1).png" alt="Facebook" width="40px" height="40px">
+                        </a>
+                    </div>
+        
+                    <div>
+                        <a href="">
+                            <img src="./assets/gorjeo.png " alt="Twitter" width="40px" height="40px">
+                        </a>
+                    </div>
+    
+                    <div>
+                        <a href="">
+                            <img src="./assets/youtube_108041.png " alt="Youtube" width="40px" height="40px">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <h3>Acerca de</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus perspiciatis in ut vero dolorem aperiam ullam. Assumenda, distinctio incidunt quae sed excepturi enim corporis, earum expedita necessitatibus nobis voluptas id!</p>
+            </div>
+           
+        </footer>
 </html>
