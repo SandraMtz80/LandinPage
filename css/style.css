@@ -1,0 +1,178 @@
+.menu {
+    background-color: rgb(107, 7, 7);
+    }
+.portada{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 90%;
+}
+    header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #f8c7c9 ;
+}
+ ul a{
+    text-decoration: none;
+    color: rgb(201, 169, 169);
+    justify-content: space-between; 
+}
+body nav{
+    background-color: #fae8dc;
+}
+.text-field{
+    width: 20%;
+    padding: 20px, 20px;
+    border-radius: 10px;
+}
+.btn {
+    background-color: rgb(107, 7, 7);
+    color: #fae8dc; 
+    border: none;
+    padding: 5px 10px;
+    transition: all 0.3s ease-out;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:#fae8dc;
+    color: rgb(107, 7, 7);
+}
+footer {
+    background-color: rgb(107, 7, 7);
+    padding: 2em 0 ;
+    text-align: center;
+    margin-top: auto
+    ;
+}
+footer nav ul li {
+    text-decoration: none;
+    color: rgb(201, 169, 169);
+    justify-content: center ; 
+    }
+footer{
+
+    justify-content: space-between;
+}
+
+/**Estilos Index2**/
+.container{
+    max-width:1000px;
+    width:90%;
+    margin:0 auto;
+}
+section {
+    padding: 10px 0;
+}
+.title{
+    text-transform: uppercase;
+    color: rgb(107, 7, 7);
+}
+.subtitle{
+    background-color: rgb(107, 7, 7);
+    display: inline;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.product-container{
+    color: rgb(107, 7, 7);
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 5px;
+}
+.product-container .card-product{
+    text-align: center;
+    font-style:oblique;
+    font-weight: bold;
+    background-color: #ec9498;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+.product-container .card-product:hover{
+    color: #fff;
+    background-color: rgb(107, 7, 7);
+    scale: 1.05;
+    cursor: pointer;
+}
+.socialmedia{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+}
+.socialmedia nav{
+    background-color: rgb(107, 7, 7);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 5px;
+    padding: 10px;
+}
+.socialmedia p{
+    color : #ec9498;
+    font-size: 20px;
+    font-style: oblique;
+}
+.socialmedia nav ul {
+    list-style: none;
+    
+}
+body {
+    background-color: #fae8dc;
+}
+.formulario{
+    font: bold;
+    color:rgb(107, 7, 7) ;
+    display: grid;
+    align-items: center;
+    gap: 0px;
+    max-width:200px;
+    width:90%;
+    margin:0 auto;
+}
+.formulario label {
+    
+}
+.formulario label input{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+main{
+    display: grid;
+    justify-content: center;
+}
+.aboutus h3{
+    color: #fae8dc;
+    display: flex;
+    align-items: center;
+}
+.aboutus p{
+color: #fae8dc;
+display: flex;
+align-items: center;
+}
+@media screen and (max-width: 680px) {
+    .product-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (max-width: 490px){
+    .product-container{
+        grid-template-columns: repeat(2,1fr);
+}
+}
