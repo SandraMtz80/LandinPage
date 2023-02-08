@@ -7,7 +7,7 @@
     max-width: 100%;
     width: 90%;
 }
-    header nav ul{
+header nav ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -143,26 +143,32 @@ body {
     max-width:200px;
     width:90%;
     margin:0 auto;
-}
-.formulario label {
-    
+    padding: 10px;
 }
 .formulario label input{
     display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: 10px;
+    padding: 5px;
 }
 main{
     display: grid;
     justify-content: center;
 }
+form button{
+    display: grid;
+    justify-content: center;
+}
 .aboutus h3{
-    color: #fae8dc;
+    color: #f8c7c9;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 .aboutus p{
-color: #fae8dc;
+color: #f8c7c9;
 display: flex;
 align-items: center;
 }
